@@ -1,4 +1,4 @@
-/*package com.websystique.springmvc.controller;
+package com.websystique.springmvc.controller;
 
 import javax.validation.Valid;
 
@@ -39,7 +39,7 @@ public class AppController {
 		}
 		orderService.sendOrder(order);
 		model.addAttribute("success", "Order for " + order.getProductName() + " registered.");
-		return "ordersuccess";
+		//return "ordersuccess";
 		return  new ModelAndView("ordersuccess", "success", "Order for " + order.getProductName() + " registered.");
 		
 	}
@@ -50,4 +50,3 @@ public class AppController {
 		return "orderStatus";
 	}
 }
-*/

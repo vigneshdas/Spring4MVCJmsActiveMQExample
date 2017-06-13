@@ -1,4 +1,4 @@
-/*package com.websystique.springmvc.messaging;
+package com.websystique.springmvc.messaging;
 
 import javax.jms.JMSException;
 
@@ -36,4 +36,3 @@ public class MessageReceiver {
 		LOG.info("+++++++++++++++++++++++++++++++++++++++++++++++++++++");
 	}
 }
-*/
