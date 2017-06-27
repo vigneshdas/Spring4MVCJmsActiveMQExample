@@ -15,5 +15,7 @@ public class AppConfigTest1 {
 	@Bean(name="testJMSTemplateSenderReciever")
     public TestJMSTemplateSenderReciever testJMSTemplateSenderReciever() {
         return new TestJMSTemplateSenderReciever();
+        
+        //Testingggg
     }
 }
